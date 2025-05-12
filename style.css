@@ -4,20 +4,9 @@
   padding: 0;
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
-  background-image: url('./tempo/Astronauta.png');
-  /* Substitua pelo caminho da sua imagem */
-  background-size: cover;
-  /* Ajusta a imagem para cobrir toda a tela */
-  background-position: center;
-  /* Centraliza a imagem */
-  background-repeat: no-repeat;
-  /* Evita repetição */
-  color: wgit add --renormalize .hite;
+  background-color: rgb(27, 26, 87);
+  color: white;
   text-align: center;
 }
 
@@ -102,7 +91,7 @@ p {
   border: 6px solid #4b3892;
   margin: 50px;
   padding: 10px;
-  text-align: left;
+  text-align: center;
   border-radius: 10px;
   width: 100%;
   max-width: 760px;
@@ -110,8 +99,6 @@ p {
   text-align: left;
   line-height: 1.5;
 }
-
-
 
 footer {
   padding: 10px;
@@ -137,8 +124,7 @@ footer {
     flex-direction: column;
   }
 
-  .nossa-foto,
-  .logo-nav {
+  .nossa-foto, .logo-nav {
     width: 100%;
     max-width: 150px;
   }
